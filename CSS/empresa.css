@@ -2,8 +2,6 @@
   --gradient: linear-gradient(180deg, #3c97d2 0%, #374a91 100%);
 }
 
-
-
 * {
   margin: 0px;
   padding: 0px;
@@ -54,8 +52,8 @@ header {
 }
 
 /************************/
-main{
-  grid-area: 'main';
+main {
+  grid-area: "main";
 }
 .empresa {
   height: 50vh;
@@ -65,35 +63,37 @@ main{
 .empresa h1 {
   margin: 50px auto;
   text-align: center;
-  font-size: 4em;
+  font-size: 3em;
   font-weight: normal;
   color: rgba(35, 35, 103, 1);
 }
 .empresa p {
   color: black;
-
   font-size: 1.128em;
   font-style: italic;
   font-weight: normal;
-  line-height: 49px;
+  text-align: center;
   letter-spacing: 0.12em;
-  text-align: justify;
 }
 
 .MissaVisaoValores {
   margin-top: 15vh;
-  height: 80vh;
+  height: 100%;
   background: rgba(35, 35, 103, 0.24);
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr;
 }
-.MissaVisaoValores h2{
+.MissaVisaoValores h2 {
   color: rgba(35, 35, 103, 1);
   text-align: center;
   font-size: 2em;
   margin-top: 10vh;
 }
 
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 .MissaVisaoValores-box {
   box-shadow: 18px 10px 19px -6px rgba(0, 0, 0, 0.75);
   width: 30vw;
@@ -108,20 +108,16 @@ main{
   font-size: 1.85em;
   text-align: center;
 }
-.MissaVisaoValores p{
-  color:  rgba(35, 35, 103, 1);
+.MissaVisaoValores p {
+  color: rgba(35, 35, 103, 1);
   font-size: 3em;
-text-align: center;
-   
+  text-align: center;
 }
 
-
-
-
 .footer {
-  text-align: center;
   position: relative;
-  
+  margin-top: 80vh;
+  text-align: center;
   background: rgba(35, 35, 103, 1);
 }
 .footer p {
