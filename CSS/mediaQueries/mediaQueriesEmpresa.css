@@ -1,0 +1,9 @@
+@media screen and (max-width: 800px) {
+    .menu-desktop {
+      display: none;
+    }
+    .wrap-menu {
+      display: block;
+    }
+
+}

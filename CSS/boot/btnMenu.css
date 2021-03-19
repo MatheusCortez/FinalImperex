@@ -1,0 +1,22 @@
+
+
+.btnMenu{
+    font-size: 30px;
+    padding: 20px 15px; 
+}
+
+.btnMenu_open{
+   
+    display: block;
+    background-image: url(../menuIcon.png);
+    
+}
+
+.btnMenu_close{
+    position: relative;
+    right: 0;
+    color: #FFFF;
+    background: rgba(2, 0, 86, 0.91);
+
+}
+
