@@ -1,9 +1,32 @@
-@media screen and (max-width: 800px) {
-    .menu-desktop {
-      display: none;
-    }
-    .wrap-menu {
-      display: block;
-    }
+@media screen and (max-width: 750px) {
+  .menu-desktop {
+    display: none;
+  }
+  .wrap-menu {
+    display: block;
+  }
+  .empresa p{
+
+  letter-spacing:0;
+  }
+  .MissaVisaoValores-box {
+    grid-column: 2 / span 12;
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .footer {
+    position: relative;
+    margin-top: 80vh;
+  }
+}
+@media screen and (max-width: 500px) {
+  
+  .MissaVisaoValores-box {
+    grid-column: 1 / span 12;
+   
+  }
+
 
 }
