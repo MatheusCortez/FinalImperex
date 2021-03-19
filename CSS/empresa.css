@@ -32,6 +32,17 @@ li a {
 .wrap-menu {
   display: none;
 }
+.js-scroll{
+  opacity: 0;
+  transition: .4s;
+  transform:translate3d(-60px,0, 0)
+}
+.js-scroll.ativo{
+  opacity: 1;
+  transform:translate3d(0,0, 0);
+  transition: .4s;
+}
+
 /**************************/
 
 header {
@@ -77,7 +88,7 @@ main {
 }
 
 .MissaVisaoValores {
-  margin-top: 15vh;
+  margin-top: 5vh;
   height: 100%;
   background: rgba(35, 35, 103, 0.24);
   display: grid;
@@ -87,7 +98,8 @@ main {
   color: rgba(35, 35, 103, 1);
   text-align: center;
   font-size: 2em;
-  margin-top: 10vh;
+  margin-top: 50px;
+
 }
 
 .box-container {

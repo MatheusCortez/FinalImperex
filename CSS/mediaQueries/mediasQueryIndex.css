@@ -8,7 +8,7 @@
   .banner button {
     width: 70vw;
     margin-left: 20vw;
-    margin-top: 30vh;
+    margin-top: 20vh;
   }
   .galery {
     grid-template-columns: repeat(3, 1fr);
