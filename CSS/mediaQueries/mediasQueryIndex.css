@@ -17,7 +17,7 @@
   .banner button {
     width: 70vw;
     margin-left: 20vw;
-    margin-top: 15vh;
+    margin-top: 25vh;
   }
   .galery {
     grid-template-columns: repeat(3, 1fr);
@@ -40,7 +40,7 @@
   .banner button {
     width: 70vw;
     margin-left: 20vw;
-    margin-top: 5vh;
+    
   }
 }
 
@@ -61,7 +61,7 @@
    margin-top:2vh;
  }
   .banner  button{
-    margin-top: 5vh;
+    margin-top: 25vh;
   }
   
 }
