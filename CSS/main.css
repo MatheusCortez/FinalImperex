@@ -43,12 +43,13 @@ header{
   max-width: 15em;
   
 }
-.menu-desktop ul{
+.menu-desktop ul {
+  margin-right: 100px;
   display: flex;
   border-bottom: 1px solid #ffff;
 }
-.menu-desktop  ul li a {
-  padding: 0  15px;
+.menu-desktop ul li a {
+  padding: 0 15px;
 }
 
 .banner h1{
@@ -59,13 +60,18 @@ header{
 }
 .banner button{
     margin-left: 65vw;
-    margin-top: 20vh;
+    margin-top: 25vh;
     color: #ffff;
     width: 25vw;
     height: 4em;
   background: var(--gradient);
   
   outline: none;
+  }
+  .banner button i{
+    margin-left: 10px;
+    font-size:25px;
+    color: currentColor
   }
 /************************/
 
@@ -89,9 +95,10 @@ header{
 }
 .galery {
       display: grid;
-      grid-template-columns: repeat(4,1fr);
+      grid-template-columns: repeat(3,1fr);
+      place-items: center;
 
-}
+    }
 .galery img{
   width: 20vw;
    margin-left:15px;
