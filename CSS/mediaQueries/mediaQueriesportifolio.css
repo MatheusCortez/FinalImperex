@@ -1,0 +1,21 @@
+@media screen and (max-width: 800px){
+  .menu-desktop {
+    display: none;
+  }
+  .wrap-menu {
+    display: block;
+  }
+
+  .portifolioGalery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .portifolioGalery img {
+    width: 50vw;
+    grid-column: 2/2;
+    transition: 0.5s;
+  }
+  .galery img:hover {
+    width: 80vw;
+    z-index: 10;
+  }
+}

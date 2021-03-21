@@ -1,0 +1,97 @@
+:root {
+    --gradient: linear-gradient(180deg, #3c97d2 0%, #374a91 100%);
+  }
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #ffff;
+    font-family: "Montserrat Alternates", sans-serif;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  li a {
+    font-size: 0.985em;
+    line-height: 200%;
+    color: #ffff;
+    text-decoration: none;
+  }
+  /********************************************/
+  .banner {
+    width: 100vw;
+    height: 40vh;
+    grid-area: "header";
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+      url(../Images/background.svg);
+    background-size: cover;
+  }
+  
+  .wrap-menu {
+    display: none;
+  }
+  .js-scroll{
+    opacity: 0;
+    transition: .4s;
+    transform:translate3d(-60px,0, 0)
+  }
+  .js-scroll.ativo{
+    opacity: 1;
+    transform:translate3d(0,0, 0);
+    transition: .4s;
+  }
+  
+  /**************************/
+  
+  header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+  }
+  .logo img {
+    max-width: 15em;
+  }
+  .menu-desktop ul {
+    margin-right: 100px;
+    display: flex;
+    border-bottom: 1px solid #ffff;
+  }
+  .menu-desktop ul li a {
+    padding: 0 15px;
+  }
+  
+  /************************/
+  main {
+    grid-area: "main";
+  }
+  section h1{
+
+  }
+  
+  .portifolioGalery {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+.portifolioGalery img{
+width: 20vw;
+ margin-left:15px;
+  margin-top:  5vh;
+  margin-bottom:  5vh;
+  box-shadow: 10px 11px 16px 2px rgba(0, 0, 0, 0.25);
+}
+
+  .footer {
+    position: relative;
+    margin-top: 80vh;
+    text-align: center;
+    background: rgba(35, 35, 103, 1);
+  }
+  .footer p {
+    padding: 10px 0 10px 0;
+    font-size: 1.251em;
+    line-height: 1.55;
+  }
+  
